@@ -1,0 +1,9 @@
+{
+  "name": "channelmap-bot",
+  "version": "1.0.0",
+  "description": "Discord bot that keeps a live 'Channel Roadmap' card (every category and channel with its description) in a channel, with a web dashboard to edit descriptions and category names",
+  "main": "index.js",
+  "scripts": { "start": "node index.js", "deploy": "node deploy-commands.js" },
+  "engines": { "node": ">=18.0.0" },
+  "dependencies": { "discord.js": "^14.21.0", "dotenv": "^16.4.5", "express": "^4.21.0", "pg": "^8.13.0" }
+}
